@@ -7,12 +7,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "14790125"))
+API_HASH = getenv("API_HASH", "3994159ed07e898531d579ab66bd1d85")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN","5578489482:AAHak1wOPSarP9VGpMRlymXjlKKeKdBxuMU")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://userbot:userbot@cluster0.q5lvfgg.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "90")
@@ -22,9 +22,9 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001721687584"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "GJ516 MUSIC")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "˹ᴊɢ(ᴧʏ)ᴜ ✘ ᴍᴜsɪᴄ˼ ツ")
 
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "1864894033").split())
@@ -53,7 +53,7 @@ AUTO_LEAVE_ASSISTANT_TIME = int(
     getenv("ASSISTANT_LEAVE_TIME", "5400")
 )
 
-AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", "True")
+AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", "False")
 
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
@@ -85,7 +85,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQCeL-FXFyTs1hhjj7YSzfEmGSthXrpa706QtnFOwND_QM5h2r-XItQ_BP04vERgr4y_zBRknNAOYRkj0QvKFOBNCyYCc00H9Z4xCW5ZkeFGsYQ4usaNjpnKJpdkJO7D8RXq0eH0jT1jBkwltzQFu0fLLwkhQrb1-XT0gdbcFon5f506sWkGkuU8ACO7RtB4p-CLFlb0Q6JqbaXCfU2-nyb_cLtMjFlyfK8k1KQ5gDwVtisSR-eXnE_z4lPRlbgu8oUsyjurYn7KTVMMYbm308mExGLQZnBsMwW0AKGCtButXoUvd6oPc3Mds94haMsbzHJkjhRf1AQAG0Z_oVSsGZjjAAAAAStFGekA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -103,11 +103,11 @@ clean = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/8931ba4cd74cbea9446c1.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/0460722d9e5364590e979.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/f74023eac356eb6a79de2.jpg",
+    "https://telegra.ph/file/0aed250da0efb6c0ba379.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
